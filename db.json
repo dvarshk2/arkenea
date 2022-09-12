@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "name": "Varsha",
+      "email": "varsh@gmail.com",
+      "address": "Jalgaon",
+      "gender": "male",
+      "dateOfBirth": "1992-03-17T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "name": "Rutu",
+      "email": "rutu@gmail.com",
+      "address": "asdf",
+      "gender": "female",
+      "dateOfBirth": "2022-07-11T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "name": "Dow jones",
+      "email": "dow@gmail.com",
+      "address": "xc",
+      "gender": "male",
+      "dateOfBirth": "2022-08-08T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "name": "John Doe",
+      "email": "johndoe@gmail.com",
+      "gender": "male",
+      "dateOfBirth": "2016-10-17T18:30:00.000Z",
+      "address": "Hartway street",
+      "id": 4
+    },
+    {
+      "name": "Rose Smith",
+      "email": "rose.smith@gmail.com",
+      "gender": "female",
+      "dateOfBirth": "Apr 05, 1949",
+      "address": "Paris",
+      "id": 5
+    },
+    {
+      "name": "Droid Crew",
+      "email": "droid.crew@gmail.com",
+      "gender": "male",
+      "dateOfBirth": "Feb 22, 1960",
+      "address": "122, Green Acres Road",
+      "id": 6
+    },
+    {
+      "name": "Deo Rosa",
+      "email": "deo.rosa@gmail.com",
+      "gender": "male",
+      "dateOfBirth": "May 18, 1980",
+      "address": "23, Barnes Avenue",
+      "id": 7
+    },
+    {
+      "name": "James B",
+      "email": "james.bond@gmail.com",
+      "gender": "male",
+      "dateOfBirth": "May 22, 1972",
+      "address": "44, Planokuf resnue",
+      "id": 8
+    }
+  ]
+}

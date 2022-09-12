@@ -1,0 +1,46 @@
+    <div class="heading">
+        <h2>Edit User</h2>
+        <i mat-dialog-close class="fas fa-close"></i>
+    </div>
+    <hr>
+    <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+        <p>
+            <mat-form-field appearance="outline">
+                <mat-label>Name</mat-label>
+                <input formControlName="name" MatFormFieldControl matInput >
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="outline">
+                <mat-label>Email</mat-label>
+                <input formControlName="email" MatFormFieldControl matInput >
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-label>Gender</mat-label>
+            <mat-radio-group formControlName="gender" aria-label="Select an option">
+                <mat-radio-button value="male">Male</mat-radio-button>
+                <mat-radio-button value="female">Female</mat-radio-button>
+            </mat-radio-group>
+        </p>
+        <p>
+            <mat-form-field appearance="outline">
+                <mat-label>Date of Birth</mat-label>
+                <input formControlName="dateOfBirth" matInput [matDatepicker]="picker">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="outline">
+                <mat-label>Address</mat-label>
+                <textarea formControlName="address" matInput></textarea>
+            </mat-form-field>
+        </p>
+        <p class="text-align-right">
+            <button class="btn" mat-button color="primary">Submit</button>
+        </p>
+    </form>
+
+
+

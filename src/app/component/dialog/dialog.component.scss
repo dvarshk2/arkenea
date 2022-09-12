@@ -1,0 +1,17 @@
+
+.dailog{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    border: 2px solid #00a99d;
+    color: #00a99d;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-right: 10px;
+    &:hover,:active,:focus{
+        background-color: #00a99d;
+        color: #fff;
+    }
+}
+

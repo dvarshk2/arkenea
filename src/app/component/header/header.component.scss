@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+mat-toolbar{
+    background-color: #fff;
+}
+.userImage{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.example-icon.favorite-icon{
+    margin-right: 10px;
+}

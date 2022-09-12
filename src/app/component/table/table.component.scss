@@ -1,0 +1,29 @@
+table {
+   width:100%
+  }
+th{
+  background-color: #00a99d;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  mat-checkbox{
+    background-color: #fff;
+    border: #00a99d;
+    outline: none;
+  }
+}
+.editIcon i{
+  margin-right: 15px;
+}
+@media all and (max-width: 600px) {
+  th,td{
+    display: flex;
+    flex-direction: column;
+  }
+  td{
+    flex-direction: row;
+  }
+}
+@media all and (max-width: 900px) {
+  
+}
